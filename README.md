@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## MVP Requirements
+1. Allow the user to enter the name of his/her city or the city that they want look up the weather details for,
+   - Confirm strings with matching names by showing in drop-down list
+   - Return suggestions as "Did you mean correction ?" for mistypes for the city name and pick the correction if clicked upon
+   - Return null/invalid searches with appropriate error messages
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. Upon entering/selecting the correct city name, display the city and its current date and time (consider time zone and DSTs)
 
-## Available Scripts
+3. Display the following features of weather,
 
-In the project directory, you can run:
+- Height (from sea level)
+- Wind speed (in kmph/mph)
+- Rain and Humidity
+- Temperature (current)
 
-### `npm start`
+4. Display a forecast of the current week and slideable till next 1 month
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+5. Handle all exceptions with appropriate error messages
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+6. Responsive and user friendly design
 
-### `npm test`
+7. The app must load faster
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+8. Host/Deploy your app
 
-### `npm run build`
+9. Your app should be device and browser compatible
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Look out for
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Input box should take city / area / etc. name
+- Forms should work with the Enter key
+- After entering the city, I get that city's data
+- Things should be well aligned.
+- Grids should use Flex layout or CSS Grids
