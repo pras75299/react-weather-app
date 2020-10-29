@@ -7,11 +7,10 @@
 2. Upon entering/selecting the correct city name, display the city and its current date and time (consider time zone and DSTs)
 
 3. Display the following features of weather,
-
-- Height (from sea level)
-- Wind speed (in kmph/mph)
-- Rain and Humidity
-- Temperature (current)
+   - Height (from sea level)
+   - Wind speed (in kmph/mph)
+   - Rain and Humidity
+   - Temperature (current)
 
 4. Display a forecast of the current week and slideable till next 1 month
 
@@ -26,9 +25,8 @@
 9. Your app should be device and browser compatible
 
 # Look out for
-
-- Input box should take city / area / etc. name
-- Forms should work with the Enter key
-- After entering the city, I get that city's data
-- Things should be well aligned.
-- Grids should use Flex layout or CSS Grids
+   - Input box should take city / area / etc. name
+   - Forms should work with the Enter key
+   - After entering the city, I get that city's data
+   - Things should be well aligned.
+   - Grids should use Flex layout or CSS Grids
